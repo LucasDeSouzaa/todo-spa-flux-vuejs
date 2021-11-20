@@ -1,8 +1,10 @@
 <template>
-  <div id="App" class="container d-flex flex-column justify-content-center align-items-center">
+  <div>
     <Header/>
-    <AddTodo/>
-    <TodoList/>
+    <div id="App" class="container d-flex flex-column justify-content-center align-items-center">
+      <AddTodo/>
+      <TodoList/>
+    </div>
     <Footer/>
   </div>
 </template>
