@@ -1,12 +1,10 @@
 <template>
-  <div>
-    <Header/>
     <div id="App" class="container d-flex flex-column justify-content-center align-items-center">
+      <Header/>
       <AddTodo/>
       <TodoList/>
+      <Footer/>
     </div>
-    <Footer/>
-  </div>
 </template>
 
 <script>
